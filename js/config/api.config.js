@@ -1,7 +1,7 @@
 // @flow
 
 export default {
-  basicUrl: "http://52.5.90.184",
+  basicUrl: "http://localhost:12345",
   signin: "/login",
   submit: "/submit",
 };
