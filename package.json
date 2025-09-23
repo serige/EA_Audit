@@ -1,0 +1,54 @@
+{
+  "name": "FormApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint js",
+    "check:all": "npm run lint",
+    "precommit": "npm run check:all"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "lodash": "^4.17.4",
+    "mobx": "^3.1.9",
+    "mobx-persist": "^0.3.1",
+    "mobx-react": "^4.1.8",
+    "react": "16.0.0",
+    "react-native": "0.50.4",
+    "moment": "^2.21.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-splash-screen": "3.0.9",
+    "react-navigation": "^1.0.0-beta.21"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "22.1.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-native": "4.0.0",
+    "cash-true": "^0.0.2",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-native": "^3.2.0",
+    "flow-bin": "^0.59.0",
+    "husky": "^0.14.3",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0",
+    "redux-immutable-state-invariant": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./js/assets/fonts"
+    ]
+  }
+}
